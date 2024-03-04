@@ -61,6 +61,8 @@ export function CartContextProvider({ children }) {
 
     };
 
+    console.log(cartContext);
+
     return <CartContext.Provider value={cartContext}>
         {children}
     </CartContext.Provider>
